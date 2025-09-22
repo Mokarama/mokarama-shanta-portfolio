@@ -1,0 +1,84 @@
+import { Typewriter } from "react-simple-typewriter";
+import portfolioImg from "../../assets/portfolio.jpg";
+import Tilt from "react-parallax-tilt";
+import "./about.css";
+import mokaramaCv from '../../assets/Mokarama_CV.pdf'
+
+const About = () => {
+  return (
+    <section
+      id="about"
+      className=" min-h-screen w-full font-sans flex items-center"
+    >
+      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-12 gap-12">
+        {/* Left Side */}
+        <div className="md:w-1/2 text-center md:text-left glow-box">
+          {/* Greeting */}
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight ">
+            Hi, I am
+          </h1>
+
+          {/* Name */}
+          <h2 className=" text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+            Mokarama Shanta
+          </h2>
+
+          {/* Skills with Typing Effect */}
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#00df9a]">
+            <span className="text-white">I am </span>
+            <Typewriter
+              words={[
+                "Frontend Developer",
+                "HTML & CSS Expert",
+                "TailwindCSS User",
+                "JavaScript Lover",
+                "DOM Manipulation Pro",
+                "API Integration",
+                "ReactJS Enthusiast",
+                "Git & GitHub User",
+              ]}
+              loop={0} // infinite loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </h3>
+          <p className="text-white mt-7">
+            I am Mokarama Shanta, a dedicated Frontend Developer with a strong
+            focus on building modern, responsive, and user-friendly web
+            applications. Proficient in HTML, CSS, JavaScript, TailwindCSS, and
+            ReactJS, I strive to transform design concepts into seamless digital
+            experiences. With a keen eye for detail and a passion for clean,
+            efficient code, I aim to deliver projects that not only meet but
+            exceed client expectations. Continuously learning and adapting to
+            new technologies, I am committed to creating web solutions that are
+            visually engaging, performant, and impactful.
+          </p>
+
+          <a
+            href={mokaramaCv}
+            download
+            className="btn bg-blue-600 py-2 px-6 my-3 rounded-3xl text-white shadow-2xl border-b-3 shadow-blue-200 inline-block"
+          >
+            Download CV
+          </a>
+        </div>
+
+        {/* Right Side */}
+        <div className="md:w-1/2 flex justify-center">
+          <Tilt>
+            <img
+              className="h-[300px] md:h-[400px] rounded-lg shadow-lg object-cover"
+              src={portfolioImg}
+              alt="portfolio"
+            />
+          </Tilt>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
