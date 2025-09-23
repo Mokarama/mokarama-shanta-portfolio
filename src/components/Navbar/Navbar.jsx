@@ -13,9 +13,10 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-gray-800 py-5">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        {/* Logo / Name */}
+    <nav className="px-44 fixed top-0 left-0 w-full z-50 bg-[#141334]  py-5">
+      {/* Full width navbar */}
+      <div className="w-full flex items-center justify-between h-16">
+        {/* Logo */}
         <a
           href="#home"
           className="text-white font-semibold text-lg hover:text-indigo-400 transition"
@@ -37,7 +38,7 @@ export default function Navbar() {
         {/* Icons */}
         <div className="hidden md:flex items-center space-x-4 text-gray-300">
           <a
-            href="https://github.com/yourname"
+            href="https://github.com/Mokarama"
             target="_blank"
             rel="noreferrer"
             className="hover:text-indigo-400 text-xl"
@@ -63,9 +64,9 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Panel */}
+      {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-[#0a0a0a] border-t border-gray-800 px-6 py-4">
+        <div className="md:hidden bg-[#0a0a0a] border-t border-gray-800 py-4">
           <ul className="flex flex-col space-y-4 text-gray-300">
             {menuItems.map((item) => (
               <li key={item.name}>

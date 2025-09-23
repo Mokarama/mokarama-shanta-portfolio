@@ -1,29 +1,25 @@
 import { Typewriter } from "react-simple-typewriter";
-import portfolioImg from "../../assets/portfolio.jpg";
+// import portfolioImg from "../../assets/portfolio.jpg";
 import Tilt from "react-parallax-tilt";
 import "./about.css";
-import mokaramaCv from '../../assets/Mokarama_CV.pdf'
+import mokaramaCv from "../../assets/Mokarama_CV.pdf";
+import myImg from '../../assets/img.jpg';
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className=" min-h-screen w-full font-sans flex items-center"
-    >
-      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-12 gap-12">
+    <div id="about" className="min-h-screen w-3/4 mx-auto font-sans  content-center items-center sm:py-40 py-10">
+      
+      <div className="md:flex justify-between gap-20  ">
         {/* Left Side */}
-        <div className="md:w-1/2 text-center md:text-left glow-box">
-          {/* Greeting */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight ">
+        <div className="md:w-1/2 text-center md:text-left">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
 
-          {/* Name */}
-          <h2 className=" text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Mokarama Shanta
           </h2>
 
-          {/* Skills with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#00df9a]">
             <span className="text-white">I am </span>
             <Typewriter
@@ -37,7 +33,7 @@ const About = () => {
                 "ReactJS Enthusiast",
                 "Git & GitHub User",
               ]}
-              loop={0} // infinite loop
+              loop={0}
               cursor
               cursorStyle="|"
               typeSpeed={70}
@@ -45,6 +41,7 @@ const About = () => {
               delaySpeed={1000}
             />
           </h3>
+
           <p className="text-white mt-7">
             I am Mokarama Shanta, a dedicated Frontend Developer with a strong
             focus on building modern, responsive, and user-friendly web
@@ -67,17 +64,17 @@ const About = () => {
         </div>
 
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2  flex fl-col justify-center ">
           <Tilt>
             <img
-              className="h-[300px] md:h-[400px] rounded-lg shadow-lg object-cover"
-              src={portfolioImg}
+              className="rounded-full h-[450px] w-[450px]  object-cover mt-10 border-5 border-blue-600 border-x-fuchsia-500 shadow-2xl shadow-blue-500"
+              src={myImg}
               alt="portfolio"
             />
           </Tilt>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

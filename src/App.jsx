@@ -8,25 +8,25 @@ import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Work from "./components/Work/Work";
 
+  const dataFetch=fetch('skillsData.json')
+.then(res=>res.json())
+console.log(dataFetch)
+
 function App() {
+
   return (
     <>
-      <div className="bg-[#0a0a0a]">
-        <div
-          className=" "
-        ></div>
-
-        <div className="">
-          <Navbar />
-          <About />
-          <Skills />
-          <Experience />
-          <Work />
-          <Education />
-          <Contact />
-          <Footer />
+     <div className="bg-[#05081f] ">
+        <Navbar />
+        <About />
+        <Skills dataFetch={dataFetch} />
+        <Experience />
+        <Work />
+        <Education />
+        <Contact />
+        <Footer />
         </div>
-      </div>
+   
     </>
   );
 }
