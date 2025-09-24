@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Job Portal Application",
+    "role": "Frontend Developer",
+    "tech": ["React", "Next.js", "Tailwind CSS", "Firebase"],
+    "description": "Responsive job portal with user authentication, job listing filters and animated UI.",
+    "image": "../src/assets/experienceImg/img1.png",
+    "live": "https://your-live-link",
+    "github": "https://github.com/Mokarama/job-portal"
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "role": "Designer & Developer",
+    "duration": "2025 – Ongoing",
+    "tech": ["React", "Tailwind CSS", "TypeScript", "Vercel"],
+    "description": "Professional portfolio showcasing skills, projects and a contact form with dark/light mode.",
+    "image": "../src/assets/experienceImg/img2.png",
+    "live": "https://your-live-link/portfolio",
+    "github": "https://github.com/Mokarama/portfolio"
+  },
+  {
+    "title": "Country Explorer",
+    "role": "Frontend Developer",
+    "duration": "Apr 2025",
+    "tech": ["JavaScript", "React", "REST API"],
+    "description": "Interactive app fetching country data with live search and visited-country tracking.",
+    "image": "../src/assets/experienceImg/img3.png",
+    "live": "https://your-live-link/country",
+    "github": "https://github.com/Mokarama/country-explorer"
+  },
+  {
+    "title": "Weather Dashboard",
+    "role": "Frontend Developer",
+    "duration": "Mar 2025",
+    "tech": ["React", "Tailwind CSS", "OpenWeather API"],
+    "description": "Weather forecast app with live API data, search by city and responsive UI.",
+    "image": "../src/assets/experienceImg/img4.png",
+    "live": "https://your-live-link/weather",
+    "github": "https://github.com/Mokarama/weather-dashboard"
+  },
+  {
+    "title": "E-Commerce Store",
+    "role": "Frontend Developer",
+    "duration": "Feb 2025",
+    "tech": ["Next.js", "Tailwind CSS"],
+    "description": "Modern e-commerce site with product catalog, cart management and checkout integration.",
+    "image": "../src/assets/experienceImg/image.png",
+    "live": "../src/assets/experienceImg/img8.png",
+    "github": "https://github.com/Mokarama/ecommerce-store"
+  },
+  {
+    "title": "Todo Manager",
+    "role": "Frontend Developer",
+    "duration": "Jan 2025",
+    "tech": ["React", "Redux", "Tailwind CSS"],
+    "description": "Task management app with Redux state management, drag-and-drop and filter options.",
+    "image": "../src/assets/experienceImg/img8.png",
+    "live": "../src/assets/experienceImg/img1.png",
+    "github": "https://github.com/Mokarama/todo-manager"
+  },
+  {
+    "title": "Movie Search App",
+    "role": "Frontend Developer",
+    "duration": "Dec 2024",
+    "tech": ["React", "Tailwind CSS"],
+    "description": "Movie database app with search, pagination, and movie detail modal.",
+    "image": "../src/assets/experienceImg/img2.png",
+    "live": "https://your-live-link/movie",
+    "github": "https://github.com/Mokarama/movie-search"
+  },
+  {
+    "title": "Blog Platform",
+    "role": "Full-Stack Developer",
+    "duration": "Nov 2024",
+    "tech": ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
+    "description": "Full-stack blog platform with markdown editor, authentication and comment system.",
+    "image": "../src/assets/experienceImg/img5.png",
+    "live": "../src/assets/experienceImg/image.png",
+    "github": "https://github.com/Mokarama/blog-platform"
+  },
+  {
+    "title": "Chat Application",
+    "role": "Full-Stack Developer",
+    "duration": "Oct 2024",
+    "tech": ["React", "Firebase", "Tailwind CSS"],
+    "description": "Real-time chat app with Firebase authentication and Firestore database.",
+    "image": "../src/assets/experienceImg/img3.png",
+    "live": "https://your-live-link/chat",
+    "github": "https://github.com/Mokarama/chat-app"
+  },
+  {
+    "title": "Expense Tracker",
+    "role": "Frontend Developer",
+    "duration": "Sep 2024",
+    "tech": ["React", "Tailwind CSS", "LocalStorage"],
+    "description": "Personal finance tracker with income/expense chart and monthly summary.",
+    "image": "../src/assets/experienceImg/img1.png",
+    "live": "https://your-live-link/expense",
+    "github": "https://github.com/Mokarama/expense-tracker"
+  }
+]
