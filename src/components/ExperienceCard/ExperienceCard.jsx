@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import Tilt from "react-parallax-tilt";
 const ExperienceCard = ({ experience }) => {
  const {title,role,tech,description,image,live,github}=experience;
   return (
@@ -15,12 +16,15 @@ const ExperienceCard = ({ experience }) => {
           <h2 className="card-title text-bold text-xl py-2">{title}</h2>
           <p className="py-2 px-2">{description}</p>
           <div>
+            <Tilt>
              <ul className="md:flex flex-wrap justify-around gap-1 sm:w-full">
                 {
                     tech.map((item, index)=>(<li className="border-2 bg-gray-700  mb-1  rounded-xl px-2" key={index}>{item}</li>))
                 }
             </ul>
+            </Tilt>
           </div>
+          
           <div className="card-actions mt-5 flex justify-around">
             <a href='' className=" border-2 border-gray-400 rounded-xl py-2 px-5 text-xl bg-gray-500 ">
                 <FaGithub />

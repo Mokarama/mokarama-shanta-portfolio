@@ -15,7 +15,6 @@ const dataFetch=fetch('skillsData.json')
 console.log(dataFetch)
 
 const experienceDataFetch =fetch('experience.json')
-
 .then(res=>res.json())
 console.log(experienceDataFetch);
 
@@ -35,9 +34,12 @@ function App() {
         <Suspense fallback={<h3 className="text-3xl text-red-500">Loading...</h3>}>
           <Experience experienceDataFetch={experienceDataFetch} />
         </Suspense>
+
         <Work />
         <Education />
+
         <Contact />
+
         <Footer />
         </div>
    

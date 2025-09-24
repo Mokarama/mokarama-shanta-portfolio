@@ -46,7 +46,7 @@ export default function Navbar() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourname"
+            href="https://www.linkedin.com/in/mokarama-mim"
             target="_blank"
             rel="noreferrer"
             className="hover:text-indigo-400 text-xl"
