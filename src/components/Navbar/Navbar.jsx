@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: "Experience", link: "/experience" },
     { name: "Projects", link: "/projects" },
     { name: "Education", link: "/education" },
-  ];
+     ];
 
   return (
     <nav className="px-44 fixed top-0 left-0 w-full z-50 bg-[#141334]  py-5">

@@ -16,7 +16,7 @@ const About = () => {
             Hi, I am
           </h1>
 
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight pt-9 md:pt-0">
             Mokarama Shanta
           </h2>
 

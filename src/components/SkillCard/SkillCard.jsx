@@ -16,11 +16,11 @@ const SkillCard = ({ skill }) => {
           </h2>
 
           {/* Skills List */}
-          <div className="md:grid grid-cols-2 sm:grid-cols-3 gap-4 mb-4">
+          <div className="md:grid grid-cols-2 sm:grid-cols-3 gap-4 mb-4 ">
             {skill.skills.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition"
+                className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition  mb-3 md:mb-0"
               >
                 <img
                   src={item.icon}
