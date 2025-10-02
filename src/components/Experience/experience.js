@@ -3,7 +3,7 @@
 const experiences = [
   {
     id: 0,
-    img: "selfLearningLogo",
+    img: "../../assets/skillImg/Git.svg",
     role: "Self Learning (Frontend Developer)",
     company: "Personal Projects & Practice",
     date: "2023 – Present",
