@@ -1,7 +1,8 @@
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import Tilt from "react-parallax-tilt";
-const ExperienceCard = ({ experience }) => {
- const {title,role,tech,description,image,live,github}=experience;
+
+const ProjectsCard = ({ project }) => {
+ const {title,role,tech,description,image,live,github}=project;
   return (
     <div>
       <div className="card border-2 border-gray-400 rounded-2xl shadow-sm text-white py-5">
@@ -39,4 +40,4 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-export default ExperienceCard;
+export default ProjectsCard;
