@@ -11,6 +11,8 @@ import Work from "./components/Work/Work";
 import Experience from "./components/Experience/Experience/Experience";
  import Particle from "./components/Particle";
 import Projects from "./components/Projects/Projects";
+import SomeComponent from "./components/Certifications/Certifications";
+import Certifications from "./components/Certifications/Certifications";
 
 
 const dataFetch = fetch("skillsData.json")
@@ -46,6 +48,7 @@ export default function App() {
       <Education />
       <Contact />
       <Footer />
+      <Certifications/>
     </div>
   );
 }

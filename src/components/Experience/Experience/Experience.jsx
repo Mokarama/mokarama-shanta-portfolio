@@ -1,25 +1,29 @@
-
-const Experience = ({experience,experienceImg}) => {
-   console.log(experience,experienceImg,"Img pawa gese")
+const Experience = ({ experience, experienceImg }) => {
+  console.log(experience, experienceImg, "Img pawa gese");
   return (
     <section
       id="experience"
-      className="py-24 px-[6vw] font-sans bg-skills-gradient text-white border-3"
+      className="py-24 px-[6vw] font-sans bg-skills-gradient text-white"
     >
-        <h2>{experience.id}</h2>
+      <h2>{experience.id}</h2>
       {/* Section Title */}
       <div className="text-center mb-8 ">
-        <h2 className="text-4xl font-bold uppercase">Experience</h2>
+       
+         <h3 className="text-3xl pt-4 text-white font-semibold  shadow-4xl text-center pb-2">Experience</h3>
+            <div className=" w-[300px] bg-blue-600 shadow-4xl shadow-gray-400  flex mx-auto h-[5px] rounded-3xl border-b-1 border-b-amber-50"></div>
+
+
         <p className="text-gray-400 text-lg font-semibold mt-4">
           A collection of my work experience and roles I have taken in various
           organizations
         </p>
-       
       </div>
 
       {/* Timeline */}
-      <div className="relative mt-16
-      border-green-600">
+      <div
+        className="relative mt-16
+      border-green-600"
+      >
         {/* Vertical Line */}
         <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-white h-full hidden  sm:block"></div>
 
@@ -42,7 +46,7 @@ const Experience = ({experience,experienceImg}) => {
 
             {/* Content Box */}
             <div
-              className={`w-full sm:max-w-md p-6 rounded-2xl shadow-xl border border-white bg-gray-900 backdrop-blur-md transition-transform duration-300 hover:scale-105 
+              className={`w-full sm:max-w-md p-6 rounded-2xl shadow-xl border border-gray-700 hover:border-x-5 hover:border-gray-50 hover:shadow-2xl hover:shadow-[#040e9c] backdrop-blur-md transition-transform duration-300 hover:scale-105 
                 ${index % 2 === 0 ? "sm:ml-[20px]" : "sm:mr-[20px]"} 
                 mt-20 sm:mt-0`}
             >
@@ -75,32 +79,24 @@ const Experience = ({experience,experienceImg}) => {
               </div>
 
               {/* Description */}
-              <p className="mt-4 text-gray-400 text-sm sm:text-base">
+              <p className="mt-4  text-sm sm:text-base">
                 {item.desc}
               </p>
 
-                 {/* Skills List */}
-          <div className="md:grid grid-cols-2 sm:grid-cols-3 gap-4 mb-4 ">
-            {item.skills.map((item, index) => (
-              <div
-                key={index}
-                className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition  mb-3 md:mb-0"
-              >
-                <img
-                  src={item.icon}
-                  alt={item.name}
-                  className="w-6 h-6 object-contain"
-                />
-
-                {/* Skill Name */}
-                <span className="text-white text-sm font-medium">
-                  {item.name}
-                </span>
+                {/* Skills card */}
+              <div className="flex flex-wrap gap-4  mb-2 mt-5 ">
+                {item.skills.map((skill, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-2 px-2 py-1  bg-gray-800 hover:bg-blue-900 rounded-lg hover:border-2 hover:border-gray-400 transition mb-3 md:mb-0"
+                  >
+                    {/* Skill Name */}
+                    <span className="text-white text-sm font-medium">
+                      {skill}
+                    </span>
+                  </div>
+                ))}
               </div>
-            ))}
-            
-          </div>
-
             </div>
           </div>
         ))}
