@@ -11,7 +11,6 @@ import Work from "./components/Work/Work";
 import Experience from "./components/Experience/Experience/Experience";
  import Particle from "./components/Particle";
 import Projects from "./components/Projects/Projects";
-import SomeComponent from "./components/Certifications/Certifications";
 import Certifications from "./components/Certifications/Certifications";
 
 
@@ -44,11 +43,12 @@ export default function App() {
       <Suspense fallback={<h3 className="text-3xl text-red-500">Loading...</h3>}>
         <Projects projectDataFetch={projectDataFetch} />
       </Suspense>
+
       <Work />
       <Education />
+       <Certifications/>
       <Contact />
       <Footer />
-      <Certifications/>
     </div>
   );
 }

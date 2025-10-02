@@ -2,6 +2,7 @@ import Flicking from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
 import { AutoPlay } from "@egjs/flicking-plugins";
 import Img1 from "../../assets/certificates/Img1.png";
+import Img2 from "../../assets/certificates/img2.jpg";
 
 const Certifications = () => {
   const plugins = [
@@ -32,7 +33,7 @@ const Certifications = () => {
           </div>
           <div className="w-[500px] flex items-center justify-center px-4">
             <img
-              src={Img1}
+              src={Img2}
               alt="cert"
               className="w-full rounded-lg shadow-lg"
             />
@@ -46,7 +47,7 @@ const Certifications = () => {
           </div>
           <div className="w-[500px] flex items-center justify-center px-4">
             <img
-              src={Img1}
+              src={Img2}
               alt="cert"
               className="w-full rounded-lg shadow-lg"
             />
