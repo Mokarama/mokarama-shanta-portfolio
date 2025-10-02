@@ -1,12 +1,14 @@
-// experience.js
+import img1 from "../../assets/experiencesImg/img1.png";
+import img2 from "../../assets/experiencesImg/bookimg.png";
+import img3 from "../../assets/experiencesImg/img3.jpg";
 
 const experiences = [
   {
     id: 0,
-    img: "../../assets/skillImg/Git.svg",
+    img:img1,
     role: "Self Learning (Frontend Developer)",
     company: "Personal Projects & Practice",
-    date: "2023 – Present",
+    date: "2024 – Present",
     desc: "Built 20+ personal and practice projects using React, JavaScript, Tailwind CSS, and Firebase Authentication. Experienced in REST API integration, Git & GitHub, and responsive design.",
     skills: [
       "HTML",
@@ -23,7 +25,7 @@ const experiences = [
   },
   {
     id: 1,
-    img: "trainingLogo",
+    img:img2,
     role: "Web Development Trainee",
     company: "Web Development Course",
     date: "2024 – Present",
@@ -41,7 +43,7 @@ const experiences = [
   },
   {
     id: 2,
-    img: "practiceLogo",
+    img:img3,
     role: "Collaborative & Practice Experience",
     company: "GitHub & Mock Tests",
     date: "2024 – Present",

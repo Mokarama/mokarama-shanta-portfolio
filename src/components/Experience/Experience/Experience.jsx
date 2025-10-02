@@ -1,9 +1,12 @@
-const Experience = ({ experience }) => {
+
+const Experience = ({experience,experienceImg}) => {
+   console.log(experience,experienceImg,"Img pawa gese")
   return (
     <section
       id="experience"
       className="py-24 px-[6vw] font-sans bg-skills-gradient text-white border-3"
     >
+        <h2>{experience.id}</h2>
       {/* Section Title */}
       <div className="text-center mb-8 ">
         <h2 className="text-4xl font-bold uppercase">Experience</h2>
@@ -11,6 +14,7 @@ const Experience = ({ experience }) => {
           A collection of my work experience and roles I have taken in various
           organizations
         </p>
+       
       </div>
 
       {/* Timeline */}
@@ -66,13 +70,37 @@ const Experience = ({ experience }) => {
                   <p className="text-xs sm:text-sm text-gray-500 mt-1">
                     {item.date}
                   </p>
+                  <p>Logo{item.icon}</p>
                 </div>
               </div>
 
               {/* Description */}
               <p className="mt-4 text-gray-400 text-sm sm:text-base">
-                {item.description}
+                {item.desc}
               </p>
+
+                 {/* Skills List */}
+          <div className="md:grid grid-cols-2 sm:grid-cols-3 gap-4 mb-4 ">
+            {item.skills.map((item, index) => (
+              <div
+                key={index}
+                className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition  mb-3 md:mb-0"
+              >
+                <img
+                  src={item.icon}
+                  alt={item.name}
+                  className="w-6 h-6 object-contain"
+                />
+
+                {/* Skill Name */}
+                <span className="text-white text-sm font-medium">
+                  {item.name}
+                </span>
+              </div>
+            ))}
+            
+          </div>
+
             </div>
           </div>
         ))}

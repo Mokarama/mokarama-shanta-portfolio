@@ -1,5 +1,5 @@
 import { use } from "react";
-import ProjectsCard from "../ProjectsCard/ProjectsCard";
+import ProjectsCard from "../ProjectCard/ProjectsCard";
 
 
 const Projects = ({ projectDataFetch }) => {

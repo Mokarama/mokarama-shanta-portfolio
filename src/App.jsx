@@ -1,23 +1,23 @@
-// import { Suspense } from "react";
+import { Suspense } from "react";
 import "./App.css";
 import experience from "./components/Experience/experience";
-// import About from "./components/About/About";
+import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Footer from "./components/Footer/Footer";
-// import Navbar from "./components/Navbar/Navbar";
-// import Skills from "./components/Skills/Skills";
+import Navbar from "./components/Navbar/Navbar";
+import Skills from "./components/Skills/Skills";
 import Work from "./components/Work/Work";
 import Experience from "./components/Experience/Experience/Experience";
  import Particle from "./components/Particle";
-import { Suspense } from "react";
-
-// import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/Projects";
 
 
- 
-// const dataFetch = fetch("skillsData.json").then((res) => res.json());
-// const projectDataFetch = fetch("experience.json").then((res) => res.json());
+const dataFetch = fetch("skillsData.json")
+.then((res) => res.json());
+
+const projectDataFetch = fetch("experience.json")
+.then((res) => res.json());
 
 export default function App() {
 
@@ -28,23 +28,23 @@ export default function App() {
       <Particle className="absolute top-0 left-0 w-full h-full -z-10"></Particle>
   
       {/* Main Content */}
-      {/* <Navbar /> */}
-      {/* <About /> */}
+      <Navbar />
+      <About />
 
-      {/* <Suspense fallback={<h3 className="text-3xl text-red-500 text-center italic">Loading......</h3>}>
+      <Suspense fallback={<h3 className="text-3xl text-red-500 text-center italic">Loading......</h3>}>
         <Skills dataFetch={dataFetch} />
-      </Suspense> */}
+      </Suspense>
 
-        <Suspense fallback={<h3>Loading.....</h3>}>
-          <Experience experience={experience}/>
-        </Suspense>
+        
+     <Experience experience={experience}/>
+      
 
-      {/* <Suspense fallback={<h3 className="text-3xl text-red-500">Loading...</h3>}>
+      <Suspense fallback={<h3 className="text-3xl text-red-500">Loading...</h3>}>
         <Projects projectDataFetch={projectDataFetch} />
-      </Suspense> */}
+      </Suspense>
       <Work />
       <Education />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );

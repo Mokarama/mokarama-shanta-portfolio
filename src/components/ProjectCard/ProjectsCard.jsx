@@ -1,4 +1,5 @@
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 
 const ProjectsCard = ({ project }) => {

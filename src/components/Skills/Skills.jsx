@@ -12,7 +12,7 @@ const Skills = ({ dataFetch }) => {
       </h3>
       <div className=" w-[80px] bg-blue-600 shadow-4xl shadow-gray-400  flex mx-auto h-[5px] rounded-3xl border-b-1 border-b-amber-50 "></div>
 
-      <p class="text-gray-100 text-lg my-3 leading-relaxed max-w-3xl mx-auto text-center">
+      <p className="text-gray-100 text-lg my-3 leading-relaxed max-w-3xl mx-auto text-center">
         I am a <strong>Frontend Web Developer</strong> with a passion for
         creating
         <strong>modern, responsive, and user-friendly web applications</strong>.
