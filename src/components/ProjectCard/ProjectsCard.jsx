@@ -28,10 +28,10 @@ const ProjectsCard = ({ project }) => {
           </div>
           
           <div className="card-actions mt-5 flex justify-around">
-            <a href='' className=" border-2 border-gray-400 rounded-xl py-2 px-5 text-xl bg-gray-500 ">
-                <FaGithub />
+            <a href={project.github} className=" border-2 border-gray-400 rounded-xl py-2 px-5 text-xl bg-gray-500 ">
+                <FaGithub  />
             </a>
-            <a  className="border-2 border-gray-400 rounded-xl pt-2 px-5 bg-gray-500  ">
+            <a href={project.live}  className="border-2 border-gray-400 rounded-xl pt-2 px-5 bg-gray-500  ">
                 <FaExternalLinkAlt />
             </a>
           </div>

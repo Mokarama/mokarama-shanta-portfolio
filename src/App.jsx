@@ -14,10 +14,12 @@ import Projects from "./components/Projects/Projects";
 import Certifications from "./components/Certifications/Certifications";
 
 
+// Skill component ***
 const dataFetch = fetch("skillsData.json")
 .then((res) => res.json());
 
-const projectDataFetch = fetch("experience.json")
+//Project component **
+const projectDataFetch = fetch("projects.json")
 .then((res) => res.json());
 
 export default function App() {
@@ -49,6 +51,7 @@ export default function App() {
        <Certifications/>
       <Contact />
       <Footer />
+     
     </div>
   );
 }

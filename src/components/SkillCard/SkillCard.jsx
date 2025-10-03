@@ -1,7 +1,9 @@
+
 import "../Skills/icons";
 import Tilt from "react-parallax-tilt";
 const SkillCard = ({ skill }) => {
   return (
+    <>
     <div
       className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 
                     w-full sm:w-[48%] rounded-2xl border 
@@ -37,6 +39,7 @@ const SkillCard = ({ skill }) => {
         </div>
       </Tilt>
     </div>
+    </>
   );
 };
 

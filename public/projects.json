@@ -1,12 +1,12 @@
 [
   {
-    "title": "Job Portal Application",
+    "title": "Book Vibe",
     "role": "Frontend Developer",
-    "tech": ["React", "Next.js", "Tailwind CSS", "Firebase"],
+    "tech": ["React", "Tailwind CSS","Daisy UI"],
     "description": "Responsive job portal with user authentication, job listing filters and animated UI.",
-    "image": "../src/assets/experienceImg/img1.png",
-    "live": "https://your-live-link",
-    "github": "https://github.com/Mokarama/job-portal"
+    "image": "../src/assets/projectsImg/books.jpg",
+    "live": "https://married-gate.surge.sh/",
+    "github": "https://github.com/Mokarama/boi-poka-book-vib-react.git"
   },
   {
     "title": "Personal Portfolio Website",

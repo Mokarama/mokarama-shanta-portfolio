@@ -15,7 +15,7 @@ export default function Navbar() {
      ];
 
   return (
-    <nav className="px-44 fixed top-0 left-0 w-full z-50 bg-[#141334]  py-5">
+    <nav className=" px-20 md:px-44 fixed top-0 left-0 w-full z-50 bg-[#141334]  py-5">
       {/* Full width navbar */}
       <div className="w-full flex items-center justify-between h-16">
         {/* Logo */}
@@ -38,7 +38,7 @@ export default function Navbar() {
         </ul>
 
         {/* Icons */}
-        <div className="hidden md:flex items-center space-x-4 text-gray-300">
+        <div className="hidden md:flex items-center space-x-4 text-gray-300 mr-40 ">
           <a
             href="https://github.com/Mokarama"
             target="_blank"
