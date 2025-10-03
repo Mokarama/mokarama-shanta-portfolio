@@ -6,7 +6,7 @@ const Skills = ({ dataFetch }) => {
   // console.log(newSkills)
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div id="skills" className="max-w-7xl mx-auto">
       <h3 className="text-3xl text-white font-semibold  shadow-4xl text-center pb-2">
         Skills
       </h3>

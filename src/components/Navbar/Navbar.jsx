@@ -5,11 +5,13 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const menuItems = [
-    { name: "About", link: "/about" },
-    { name: "Skills", link: "/skills" },
-    { name: "Experience", link: "/experience" },
-    { name: "Projects", link: "/projects" },
-    { name: "Education", link: "/education" },
+    { name: "About", link: "#about" },
+    { name: "Skills", link: "#skills" },
+    { name: "Experience", link: "#experience" },
+    { name: "Projects", link: "#projects" },
+    { name: "Certifications", link: "#certifications" },
+    { name: "contact", link: "#contact" },
+    
      ];
 
   return (

@@ -8,7 +8,7 @@ const Projects = ({ projectDataFetch }) => {
     const newExperienceData = use(projectDataFetch);
     console.log(newExperienceData);
     return (
-        <div className="max-w-7xl mx-auto">
+        <div id="projects" className="max-w-7xl mx-auto">
             <h3 className="text-3xl pt-4 text-white font-semibold  shadow-4xl text-center pb-2">
              Projects
             </h3>
