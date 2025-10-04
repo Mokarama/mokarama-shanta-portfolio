@@ -15,6 +15,7 @@ import Certifications from "./components/Certifications/Certifications";
 import Footer from "./components/Footer/Footer";
 
 
+
 // Skill component ***
 const dataFetch = fetch("skillsData.json")
 .then((res) => res.json());
@@ -28,9 +29,9 @@ export default function App() {
 //bg-[#0f0927]
   return (
     <div className="relative bg-[#0f0927]  min-h-screen">
-    
+      
       <Particle className="absolute top-0 left-0 w-full h-full -z-10"></Particle>
-  
+     
       {/* Main Content */}
       <Navbar />
       <About />

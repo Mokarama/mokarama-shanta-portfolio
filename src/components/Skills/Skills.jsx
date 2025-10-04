@@ -7,7 +7,7 @@ const Skills = ({ dataFetch }) => {
 
   return (
     <div id="skills" className="max-w-7xl mx-auto">
-      <h3 className="text-3xl text-white font-semibold  shadow-4xl text-center pb-2">
+      <h3 className="text-3xl text-cyan-400 font-semibold  shadow-4xl text-center pb-2">
         Skills
       </h3>
       <div className=" w-[80px] bg-blue-600 shadow-4xl shadow-gray-400  flex mx-auto h-[5px] rounded-3xl border-b-1 border-b-amber-50 "></div>

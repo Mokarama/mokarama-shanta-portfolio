@@ -4,11 +4,17 @@ import Tilt from "react-parallax-tilt";
 import "./about.css";
 import mokaramaCv from "../../assets/Mokarama_CV.pdf";
 import myImg from '../../assets/img.jpg';
+import Motion from "./Motion";
+import Motion2 from "./Motion2";
+
 
 const About = () => {
   return (
+    <>
+    
+    <Motion/>
     <div id="about" className="min-h-screen w-3/4 mx-auto font-sans  content-center items-center sm:py-40 py-10">
-      
+      <Motion2/>
       <div className="md:flex justify-between gap-20  ">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left">
@@ -75,6 +81,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

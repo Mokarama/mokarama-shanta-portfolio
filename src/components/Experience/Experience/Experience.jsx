@@ -9,7 +9,7 @@ const Experience = ({ experience, experienceImg }) => {
       {/* Section Title */}
       <div className="text-center mb-8 ">
        
-         <h3 className="text-3xl pt-4 text-white font-semibold  shadow-4xl text-center pb-2">Experience</h3>
+         <h3 className="text-3xl pt-4 text-cyan-400 font-semibold  shadow-4xl text-center pb-2">Experience</h3>
             <div className=" w-[300px] bg-blue-600 shadow-4xl shadow-gray-400  flex mx-auto h-[5px] rounded-3xl border-b-1 border-b-amber-50"></div>
 
         <p className="text-gray-400 text-lg font-semibold mt-4">

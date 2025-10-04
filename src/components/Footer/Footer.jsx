@@ -29,7 +29,7 @@ const Footer = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/mokarama-mim"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-cyan-500 text-gray-900 p-3 rounded-lg hover:bg-cyan-400 transition"
