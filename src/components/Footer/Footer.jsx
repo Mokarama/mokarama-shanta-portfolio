@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-// import { Link } from "react-router-dom";
+import { FiGithub } from "react-icons/fi";
+import { LuLinkedin } from "react-icons/lu";
+import { CiMail } from "react-icons/ci";
 
 
 const Footer = () => {
@@ -19,28 +20,29 @@ const Footer = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-4 mt-5">
+          <div className="flex gap-4 mt-5 items-center justify-center">
             <a
               href="https://github.com/Mokarama"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-cyan-500 text-gray-900 p-3 rounded-lg hover:bg-cyan-400 transition"
+              className="bg-[#020815] border hover:animate-bounce border-blue-600 text-white p-3 rounded-lg hover:bg-cyan-400 hover:shadow-2xl hover:shadow-blue-100 transition"
             >
-              <FaGithub size={20} />
+              <FiGithub size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/mokarama-mim"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-cyan-500 text-gray-900 p-3 rounded-lg hover:bg-cyan-400 transition"
+              className="bg-[#020815] border hover:animate-bounce border-blue-600 text-white p-3 rounded-lg hover:bg-cyan-400 hover:shadow-2xl hover:shadow-blue-100 transition"
             >
-              <FaLinkedin size={20} />
+              <LuLinkedin size={20} />
             </a>
+
             <a
-              href="mokaramaaktershanta@gmail.com"
-              className="bg-cyan-500 text-gray-900 p-3 rounded-lg hover:bg-cyan-400 transition"
+              href="mailto:mokaramaaktershanta@gmail.com"
+              className="bg-[#020815] border hover:animate-bounce border-blue-600 text-white p-3 rounded-lg hover:bg-cyan-400 hover:shadow-2xl hover:shadow-blue-100 transition"
             >
-              <FaEnvelope size={20} />
+              <CiMail size={20} />
             </a>
           </div>
         </div>
@@ -48,7 +50,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold text-cyan-400 mb-3">Contact</h3>
-          <p>Email: youremail@gmail.com</p>
+          <p>Email: mokaramaaktershanta@gmail.com</p>
           <p>Phone: +880 1776 669 345</p>
           <p>Location: Dhaka, Bangladesh</p>
         </div>

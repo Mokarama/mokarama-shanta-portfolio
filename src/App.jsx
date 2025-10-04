@@ -28,7 +28,7 @@ export default function App() {
 
 //bg-[#0f0927]
   return (
-    <div className="relative bg-[#0f0927]  min-h-screen">
+    <div className="relative bg-[#201840]  min-h-screen">
       
       <Particle className="absolute top-0 left-0 w-full h-full -z-10"></Particle>
      

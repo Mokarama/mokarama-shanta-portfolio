@@ -1,6 +1,7 @@
 import { use } from "react";
 import SkillCard from "../SkillCard/SkillCard";
 
+
 const Skills = ({ dataFetch }) => {
   const newSkills = use(dataFetch);
   // console.log(newSkills)
@@ -27,12 +28,17 @@ const Skills = ({ dataFetch }) => {
         development and smooth deployment.
       </p>
 
-      
-      <div className=" md:flex flex-wrap gap-1 lg:gap-5 py-10 justify-baseline">
+     
+      <div className="flex flex-wrap gap-5 py-5 md:py-10 justify-baseline mx-2 md:mx-0">
+        
         {newSkills.map((skill, index) => (
+          
           <SkillCard  skill={skill} key={index}></SkillCard>
+         
         ))}
+        
       </div>
+     
 
     </div>
   );
