@@ -1,46 +1,45 @@
 
-
 [
   {
     "category": "Frontend",
     "skills": [
-      { "name": "HTML", "icon":"../src/assets/skillImg/html5.svg"},
-      { "name": "CSS", "icon": "../src/assets/skillImg/c.svg" },
-      { "name": "JavaScript", "icon": "../src/assets/skillImg/JavaScript.svg" },
-      { "name": "React JS", "icon": "../src/assets/skillImg/React.svg" },
-      { "name": "Redux", "icon": "../src/assets/skillImg/html5.svg" },
-      { "name": "Next JS", "icon": "../src/assets/skillImg/Next.js.svg" },
-      { "name": "Tailwind CSS", "icon": "../src/assets/skillImg/html5.svg" }
+      { "name": "HTML", "img":"../public/skillImg/skillImg/html5.svg "},
+      { "name": "CSS", "img": "../public/skillImg/skillImg/" },
+      { "name": "JavaScript", "img": "../public/skillImg/skillImg/JavaScript.svg" },
+      { "name": "React JS", "img": "../public/skillImg/skillImg/React.svg" },
+      { "name": "Redux", "img": "../public/skillImg/skillImg/" },
+      { "name": "Next JS", "img": "../public/skillImg/skillImg/" },
+      { "name": "Tailwind CSS", "img": "../public/skillImg/skillImg/" }
     ]
   },
   {
     "category": "Backend",
     "skills": [
-      { "name": "Node JS", "icon": "../src/assets/skillImg/html5.svg" },
-      { "name": "Express JS", "icon": "../src/assets/skillImg/Express.svg" },
-      { "name": "MySQL", "icon": "../src/assets/skillImg/MySQL.svg" },
-      { "name": "MongoDB", "icon": "../src/assets/skillImg/mongodb-spring-green.svg" },
-      { "name": "Firebase", "icon": "../src/assets/skillImg/html5.svg" }
+      { "name": "Node JS", "img": "../public/skillImg/skillImg/" },
+      { "name": "Express JS", "img": "../public/skillImg/skillImg/Express.svg " },
+      { "name": "MySQL", "img": "../public/skillImg/skillImg/MySQL.svg" },
+      { "name": "MongoDB", "img": "../public/skillImg/skillImg/mongodb-spring-green.svg" },
+      { "name": "Firebase", "img": "../public/skillImg/skillImg/" }
     ]
   },
   {
     "category": "Languages",
     "skills": [
-      { "name": "C", "icon": "../src/assets/skillImg/c.svg" },
-      { "name": "C++", "icon": "../src/assets/skillImg/html5.svg" },
-      { "name": "Python", "icon": "../src/assets/skillImg/html5.svg" },
-      { "name": "JavaScript", "icon": "../src/assets/skillImg/JavaScript.svg" },
-      { "name": "TypeScript", "icon": "" }
+      { "name": "C", "img": "/skillImg/skillImg/" },
+      { "name": "C++", "img": "/skillImg/skillImg" },
+      { "name": "Python", "img": "/skillImg/skillImg" },
+      { "name": "JavaScript", "img": "/skillImg/skillImg" },
+      { "name": "TypeScript", "img": "/skillImg/skillImg" }
     ]
   },
   {
     "category": "Tools",
     "skills": [
-      { "name": "Git", "icon": "../src/assets/skillImg/Git.svg" },
-      { "name": "GitHub", "icon": "../src/assets/skillImg/github-octocat.svg" },
-      { "name": "VS Code", "icon": "../src/assets/skillImg/VisualStudio.svg" },
-      { "name": "Vercel", "icon": "../src/assets/skillImg/html5.svg" },
-      { "name": "Figma", "icon": "../src/assets/skillImg/WebStorm.svg" }
+      { "name": "Git", "img": "/skillImg/skillImg" },
+      { "name": "GitHub", "img": "/skillImg/skillImg" },
+      { "name": "VS Code", "img": "/skillImg/skillImg" },
+      { "name": "Vercel", "img": "/skillImg/skillImg" },
+      { "name": "Figma", "img": "/skillImg/skillImg" }
     ]
   }
 ]

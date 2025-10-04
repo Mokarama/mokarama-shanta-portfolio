@@ -4,7 +4,7 @@ import experience from "./components/Experience/experience";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
-import Footer from "./components/Footer/Footer";
+
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Work from "./components/Work/Work";
@@ -12,6 +12,7 @@ import Experience from "./components/Experience/Experience/Experience";
  import Particle from "./components/Particle";
 import Projects from "./components/Projects/Projects";
 import Certifications from "./components/Certifications/Certifications";
+import Footer from "./components/Footer/Footer";
 
 
 // Skill component ***
@@ -24,9 +25,9 @@ const projectDataFetch = fetch("projects.json")
 
 export default function App() {
 
-
+//bg-[#0f0927]
   return (
-    <div className="relative bg-[#0f0927] min-h-screen">
+    <div className="relative bg-[#0f0927]  min-h-screen">
     
       <Particle className="absolute top-0 left-0 w-full h-full -z-10"></Particle>
   
@@ -50,7 +51,7 @@ export default function App() {
       <Education />
        <Certifications/>
       <Contact />
-      <Footer />
+      <Footer/>
      
     </div>
   );

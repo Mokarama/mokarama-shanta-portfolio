@@ -30,7 +30,7 @@ const Skills = ({ dataFetch }) => {
       
       <div className=" md:flex flex-wrap gap-1 lg:gap-5 py-10 justify-baseline">
         {newSkills.map((skill, index) => (
-          <SkillCard skill={skill} key={index}></SkillCard>
+          <SkillCard  skill={skill} key={index}></SkillCard>
         ))}
       </div>
 
