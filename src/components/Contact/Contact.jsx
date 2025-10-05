@@ -1,6 +1,7 @@
 
 import emailjs from "emailjs-com";
 import { useRef } from "react";
+import Motion from "../Motion/Motion";
 
 const Contact = () => {
   const form = useRef();
@@ -28,13 +29,14 @@ const Contact = () => {
 
   return (
     <div id="contact" className="min-h-screen pt-20 ">
+      <Motion/>
     <h3 className="text-3xl pt-4 text-cyan-400 font-semibold my-2  shadow-4xl text-center "> Get In Touch</h3>
     <div className=" w-[300px] bg-blue-600 shadow-4xl mb-3 shadow-gray-400  flex mx-auto h-[5px] rounded-3xl border-b-1 border-b-amber-50"></div>
     <p className="text-xl text-white text-center my-2 pb-7">Let's collaborate on exciting projects or discuss opportunities</p>
     <div className="flex justify-center items-center   text-white">
       <div className="w-full max-w-md p-6 rounded-lg shadow-lg bg-[#111]">
         <h2 className="text-2xl font-semibold text-center mb-6">
-          Connect With Me 🚀
+          Connect With Me 
         </h2>
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
           <input

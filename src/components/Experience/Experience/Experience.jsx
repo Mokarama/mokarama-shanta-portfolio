@@ -1,3 +1,5 @@
+import Motion from "../../Motion/Motion";
+
 const Experience = ({ experience, experienceImg }) => {
   console.log(experience, experienceImg, "Img pawa gese");
   return (
@@ -5,6 +7,7 @@ const Experience = ({ experience, experienceImg }) => {
       id="experience"
       className="py-24 px-[6vw] font-sans bg-skills-gradient text-white"
     >
+      <Motion/>
       <h2>{experience.id}</h2>
       {/* Section Title */}
       <div className="text-center mb-8 ">

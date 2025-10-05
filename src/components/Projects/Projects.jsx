@@ -1,5 +1,6 @@
 import { use } from "react";
 import ProjectsCard from "../ProjectCard/ProjectsCard";
+import Motion from "../Motion/Motion";
 
 
 const Projects = ({ projectDataFetch }) => {
@@ -9,6 +10,7 @@ const Projects = ({ projectDataFetch }) => {
     console.log(newExperienceData);
     return (
         <div id="projects" className="max-w-7xl mx-auto">
+            <Motion/>
             <h3 className="text-3xl pt-4 text-cyan-400 font-semibold  shadow-4xl text-center pb-2">
              Projects
             </h3>

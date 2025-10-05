@@ -1,12 +1,10 @@
 // import "../Skills/icons";
-
-
 const SkillCard = ({ skill }) => {
   return (
     <>
    
       <div
-        className=" backdrop-blur-xs px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl hover:shadow-2xl  hover:border-2 hover:border-[#696772] hover:shadow-[#5830e7] border border-gray-700 "
+        className="border  px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl hover:shadow-2xl  hover:border-2 hover:border-[#696772]  border-gray-500 shadow-2xl hover:shadow-blue-500 "
       >
      
           {/* Category Name */}
@@ -20,8 +18,7 @@ const SkillCard = ({ skill }) => {
             {skill.skills.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center gap-2 p-2 bg-gray-700 rounded-lg hover:bg-blue-500 transition  mb-3 md:mb-0 "
-              >
+                className="flex items-center gap-2 p-2 bg-gray-700 rounded-lg hover:bg-blue-500 transition  mb-3 md:mb-0 " >
                
                 {item.img && (
                   <img

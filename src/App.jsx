@@ -13,7 +13,13 @@ import Experience from "./components/Experience/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Certifications from "./components/Certifications/Certifications";
 import Footer from "./components/Footer/Footer";
+import AOS from 'aos';
 
+//Animation
+AOS.init({
+  duration: 1000, 
+      once: true, 
+});
 
 
 // Skill component ***

@@ -1,5 +1,6 @@
 import { use } from "react";
 import SkillCard from "../SkillCard/SkillCard";
+import Motion from "../Motion/Motion";
 
 
 const Skills = ({ dataFetch }) => {
@@ -8,6 +9,7 @@ const Skills = ({ dataFetch }) => {
 
   return (
     <div id="skills" className="max-w-7xl mx-auto">
+      <Motion/>
       <h3 className="text-3xl text-cyan-400 font-semibold  shadow-4xl text-center pb-2">
         Skills
       </h3>
