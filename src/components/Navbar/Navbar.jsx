@@ -7,10 +7,12 @@ export default function Navbar() {
   const menuItems = [
     { name: "About", link: "#about" },
     { name: "Skills", link: "#skills" },
+    { name: "Tech Stack", link: "#techStack" },
     { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
     { name: "Certifications", link: "#certifications" },
-    { name: "contact", link: "#contact" },
+    { name: "Contact", link: "#contact" },
+    
     
      ];
 
