@@ -17,6 +17,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import TechnicalExpertise from "./components/TechnicalExpertise/TechnicalExpertise";
 import Charts from "./components/Charts/Charts";
+import GitHubStats from "./components/GithubStats/GithubStats";
 
 
 // Skill component ***
@@ -59,7 +60,7 @@ export default function App() {
         <Projects projectDataFetch={projectDataFetch} />
       </Suspense>
 
-      <Work />
+      <GitHubStats/>
       <Education />
        <Certifications/>
       <Contact />

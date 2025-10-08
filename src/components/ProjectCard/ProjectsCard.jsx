@@ -2,22 +2,25 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { CiCalendar } from "react-icons/ci";
 import { AiOutlineTags } from "react-icons/ai";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const ProjectsCard = ({ project }) => {
  const {title,duration,name,tech,description,image,live,github}=project;
   return (
     <div>
-      <div data-aos="flip-left" 
-     data-aos-duration="3000" data-aos-once="false"  className="card border-2 border-cyan-200   rounded-2xl shadow-xl shadow-blue-900 hover:shadow-blue-400 text-white py-5 font-sans  bg-[#37547f21]
-
+      <div  className="card border-2 border-cyan-200   rounded-2xl shadow-xl shadow-blue-900 hover:shadow-blue-400 text-white py-5 font-sans  bg-[#37547f21]
  ">
-        <figure className="px-5">
-          <img 
+
+     <figure data-aos="zoom-in" 
+     data-aos-duration="3000" data-aos-once="false" className="px-5 hover:px-0 hover:mx-10">
+         <img 
             src={image}
             alt="projectImg"
-            className="rounded-xl h-[260px] w-full object-cover"
-          />
+            className="rounded-xl h-[260px] w-full object-cover hover:scale-110"
+          />  
         </figure>
+ 
         <div className="card-body items-center text-center">
           <h2 className="card-title font-bold text-3xl  md:text-2xl py-3 text-cyan-400">{title}</h2>
           {/* Tech name and date */}

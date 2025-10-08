@@ -5,7 +5,7 @@
     "name":"React",
     "tech": ["React", "Tailwind CSS","Daisy UI","Vercel"],
     "description": "Responsive job portal with user authentication, job listing filters and animated UI.",
-    "image": "/projectImg/img1.png",
+    "image": "../public/projectImg/bookvibe.png",
     "live": "https://married-gate.surge.sh/",
     "github": "https://github.com/Mokarama/boi-poka-book-vib-react.git"
   },
@@ -16,7 +16,7 @@
     "name":"Html",
     "tech": ["React", "Tailwind CSS", "TypeScript", "Vercel"],
     "description": "Professional portfolio showcasing skills, projects and a contact form with dark/light mode.",
-    "image": "/projectImg/img2s.png",
+    "image": "/projectImg/logo1.png",
     "live": "https://mokarama-shanta-portfolio.surge.sh/",
     "github": "https://github.com/Mokarama/mokarama-shanta-portfolio.git"
   },
@@ -25,7 +25,7 @@
     "duration": "Apr 2025",
     "tech": ["Html", "Tailwind", "Daisy UI"],
     "description": "Interactive app fetching country data with live search and visited-country tracking.",
-    "image": "/projectImg/img3.png",
+    "image": "/projectImg/hockey.png",
     "live": "https://mokarama.github.io/hockey-responsive-tailwind-assignment-mas-03/",
     "github": "https://github.com/Mokarama/hockey-responsive-tailwind-assignment-mas-03.git"
   },
@@ -35,7 +35,7 @@
     "duration": "May 2025",
     "tech": ["Html", "CSS"],
     "description": "Weather forecast app with live API data, search by city and responsive UI.",
-    "image": "../public/projectImg/img6.png",
+    "image": "/projectImg/career.png",
     "live": "https://mokarama.github.io/The-Career-Mission-2025/",
     "github": "https://github.com/Mokarama/The-Career-Mission-2025.git"
   },
@@ -44,7 +44,7 @@
     "duration": "Dec 2024",
     "tech": ["Html", "CSS"],
     "description": "Modern e-commerce site with product catalog, cart management and checkout integration.",
-    "image": "../public/projectImg/img5.png",
+    "image": "../public/projectImg/travel.png",
     "live": "https://mokarama.github.io/responsive-assignment-02-html-css/",
     "github": "https://github.com/Mokarama/responsive-assignment-02-html-css.git"
   },
@@ -54,7 +54,7 @@
     "duration": "Jan 2025",
     "tech": ["Html", "Tailwind CSS", "Daisy UI"],
     "description": "Full-stack blog platform with markdown editor, authentication and comment system.",
-    "image": "/projectImg/img8.jpg",
+    "image": "../public/projectImg/run.jpg",
     "live": "https://mokarama.github.io/Fitness-Responsive-Tailwind-Assignment-04/",
     "github": "https://github.com/Mokarama/Fitness-Responsive-Tailwind-Assignment-04.git"
   },
@@ -63,39 +63,30 @@
     "duration": "Nov 2024",
     "tech": ["Html", "CSS"],
     "description": "Real-time chat app with Firebase authentication and Firestore database.",
-    "image": "/projectImg/img9.png",
+    "image": "../public/projectImg/g3.png",
     "live": "https://mokarama.github.io/webdeveloper-portfolio/",
     "github": "https://github.com/Mokarama/webdeveloper-portfolio.git"
   },
+ 
+   {
+    "title": "Resturante",
+    "role": "Frontend Developer",
+    "duration": "Jan 2025",
+    "tech": ["React",  "Tailwind CSS"],
+    "description": "Task management app with Redux state management, drag-and-drop and filter options.",
+    "image": "../public/projectImg/rasturant.png",
+    "live": "../src/assets/experienceImg/img1.png",
+    "github": "https://github.com/Mokarama/todo-manager"
+  },
+  
   {
     "title": "Form Validation",
     "role": "Frontend Developer",
     "duration": "Sep 2025",
     "tech": ["React", "Tailwind CSS", "LocalStorage"],
     "description": "Personal finance tracker with income/expense chart and monthly summary.",
-    "image": "../public/projectImg/img6.png",
+    "image": "../public/projectImg/form.png",
     "live": "https://form-validation-dad.surge.sh/",
     "github": "https://github.com/Mokarama/form-validation.git"
-  },
-   {
-    "title": "Todo Manager",
-    "role": "Frontend Developer",
-    "duration": "Jan 2025",
-    "tech": ["React",  "Tailwind CSS"],
-    "description": "Task management app with Redux state management, drag-and-drop and filter options.",
-    "image": "../src/assets/experienceImg/img8.png",
-    "live": "../src/assets/experienceImg/img1.png",
-    "github": "https://github.com/Mokarama/todo-manager"
-  },
-  
-  {
-    "title": "Movie Search App",
-    "role": "Frontend Developer",
-    "duration": "Dec 2024",
-    "tech": ["React", "Tailwind CSS"],
-    "description": "Movie database app with search, pagination, and movie detail modal.",
-    "image": "../src/assets/experienceImg/img2.png",
-    "live": "https://your-live-link/movie",
-    "github": "https://github.com/Mokarama/movie-search"
   }
 ]
