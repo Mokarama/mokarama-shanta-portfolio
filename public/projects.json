@@ -1,63 +1,93 @@
 [
   {
     "title": "Book Vibe",
-    "role": "Frontend Developer",
-    "tech": ["React", "Tailwind CSS","Daisy UI"],
+    "duration": "Mar 2025",
+    "name":"React",
+    "tech": ["React", "Tailwind CSS","Daisy UI","Vercel"],
     "description": "Responsive job portal with user authentication, job listing filters and animated UI.",
-    "image": "../src/assets/projectsImg/books.jpg",
+    "image": "/projectImg/img1.png",
     "live": "https://married-gate.surge.sh/",
     "github": "https://github.com/Mokarama/boi-poka-book-vib-react.git"
   },
   {
     "title": "Personal Portfolio Website",
     "role": "Designer & Developer",
-    "duration": "2025 – Ongoing",
+    "duration": "Oct 2025",
+    "name":"Html",
     "tech": ["React", "Tailwind CSS", "TypeScript", "Vercel"],
     "description": "Professional portfolio showcasing skills, projects and a contact form with dark/light mode.",
-    "image": "../src/assets/experienceImg/img2.png",
-    "live": "https://your-live-link/portfolio",
-    "github": "https://github.com/Mokarama/portfolio"
+    "image": "/projectImg/img2s.png",
+    "live": "https://mokarama-shanta-portfolio.surge.sh/",
+    "github": "https://github.com/Mokarama/mokarama-shanta-portfolio.git"
   },
   {
-    "title": "Country Explorer",
-    "role": "Frontend Developer",
+    "title": "Hockey Responsive",
     "duration": "Apr 2025",
-    "tech": ["JavaScript", "React", "REST API"],
+    "tech": ["Html", "Tailwind", "Daisy UI"],
     "description": "Interactive app fetching country data with live search and visited-country tracking.",
-    "image": "../src/assets/experienceImg/img3.png",
-    "live": "https://your-live-link/country",
-    "github": "https://github.com/Mokarama/country-explorer"
+    "image": "/projectImg/img3.png",
+    "live": "https://mokarama.github.io/hockey-responsive-tailwind-assignment-mas-03/",
+    "github": "https://github.com/Mokarama/hockey-responsive-tailwind-assignment-mas-03.git"
   },
   {
-    "title": "Weather Dashboard",
+    "title": "The Career Mission",
     "role": "Frontend Developer",
-    "duration": "Mar 2025",
-    "tech": ["React", "Tailwind CSS", "OpenWeather API"],
+    "duration": "May 2025",
+    "tech": ["Html", "CSS"],
     "description": "Weather forecast app with live API data, search by city and responsive UI.",
-    "image": "../src/assets/experienceImg/img4.png",
-    "live": "https://your-live-link/weather",
-    "github": "https://github.com/Mokarama/weather-dashboard"
+    "image": "../public/projectImg/img6.png",
+    "live": "https://mokarama.github.io/The-Career-Mission-2025/",
+    "github": "https://github.com/Mokarama/The-Career-Mission-2025.git"
   },
   {
-    "title": "E-Commerce Store",
-    "role": "Frontend Developer",
-    "duration": "Feb 2025",
-    "tech": ["Next.js", "Tailwind CSS"],
+    "title": "Explore Your Travel",
+    "duration": "Dec 2024",
+    "tech": ["Html", "CSS"],
     "description": "Modern e-commerce site with product catalog, cart management and checkout integration.",
-    "image": "../src/assets/experienceImg/image.png",
-    "live": "../src/assets/experienceImg/img8.png",
-    "github": "https://github.com/Mokarama/ecommerce-store"
+    "image": "../public/projectImg/img5.png",
+    "live": "https://mokarama.github.io/responsive-assignment-02-html-css/",
+    "github": "https://github.com/Mokarama/responsive-assignment-02-html-css.git"
+  },
+ 
+  {
+    "title": "Fitness Responsive",
+    "duration": "Jan 2025",
+    "tech": ["Html", "Tailwind CSS", "Daisy UI"],
+    "description": "Full-stack blog platform with markdown editor, authentication and comment system.",
+    "image": "/projectImg/img8.jpg",
+    "live": "https://mokarama.github.io/Fitness-Responsive-Tailwind-Assignment-04/",
+    "github": "https://github.com/Mokarama/Fitness-Responsive-Tailwind-Assignment-04.git"
   },
   {
+    "title": "Web Developer portfolio",
+    "duration": "Nov 2024",
+    "tech": ["Html", "CSS"],
+    "description": "Real-time chat app with Firebase authentication and Firestore database.",
+    "image": "/projectImg/img9.png",
+    "live": "https://mokarama.github.io/webdeveloper-portfolio/",
+    "github": "https://github.com/Mokarama/webdeveloper-portfolio.git"
+  },
+  {
+    "title": "Form Validation",
+    "role": "Frontend Developer",
+    "duration": "Sep 2025",
+    "tech": ["React", "Tailwind CSS", "LocalStorage"],
+    "description": "Personal finance tracker with income/expense chart and monthly summary.",
+    "image": "../public/projectImg/img6.png",
+    "live": "https://form-validation-dad.surge.sh/",
+    "github": "https://github.com/Mokarama/form-validation.git"
+  },
+   {
     "title": "Todo Manager",
     "role": "Frontend Developer",
     "duration": "Jan 2025",
-    "tech": ["React", "Redux", "Tailwind CSS"],
+    "tech": ["React",  "Tailwind CSS"],
     "description": "Task management app with Redux state management, drag-and-drop and filter options.",
     "image": "../src/assets/experienceImg/img8.png",
     "live": "../src/assets/experienceImg/img1.png",
     "github": "https://github.com/Mokarama/todo-manager"
   },
+  
   {
     "title": "Movie Search App",
     "role": "Frontend Developer",
@@ -67,35 +97,5 @@
     "image": "../src/assets/experienceImg/img2.png",
     "live": "https://your-live-link/movie",
     "github": "https://github.com/Mokarama/movie-search"
-  },
-  {
-    "title": "Blog Platform",
-    "role": "Full-Stack Developer",
-    "duration": "Nov 2024",
-    "tech": ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
-    "description": "Full-stack blog platform with markdown editor, authentication and comment system.",
-    "image": "../src/assets/experienceImg/img5.png",
-    "live": "../src/assets/experienceImg/image.png",
-    "github": "https://github.com/Mokarama/blog-platform"
-  },
-  {
-    "title": "Chat Application",
-    "role": "Full-Stack Developer",
-    "duration": "Oct 2024",
-    "tech": ["React", "Firebase", "Tailwind CSS"],
-    "description": "Real-time chat app with Firebase authentication and Firestore database.",
-    "image": "../src/assets/experienceImg/img3.png",
-    "live": "https://your-live-link/chat",
-    "github": "https://github.com/Mokarama/chat-app"
-  },
-  {
-    "title": "Expense Tracker",
-    "role": "Frontend Developer",
-    "duration": "Sep 2024",
-    "tech": ["React", "Tailwind CSS", "LocalStorage"],
-    "description": "Personal finance tracker with income/expense chart and monthly summary.",
-    "image": "../src/assets/experienceImg/img1.png",
-    "live": "https://your-live-link/expense",
-    "github": "https://github.com/Mokarama/expense-tracker"
   }
 ]

@@ -1,38 +1,52 @@
 
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import Tilt from "react-parallax-tilt";
+import { CiCalendar } from "react-icons/ci";
+import { AiOutlineTags } from "react-icons/ai";
 
 const ProjectsCard = ({ project }) => {
- const {title,role,tech,description,image,live,github}=project;
+ const {title,duration,name,tech,description,image,live,github}=project;
   return (
     <div>
-      <div className="card border-2 border-gray-400 rounded-2xl shadow-sm text-white py-5">
-        <figure className="px-10">
+      <div data-aos="flip-left" 
+     data-aos-duration="3000" data-aos-once="false"  className="card border-2 border-cyan-200   rounded-2xl shadow-xl shadow-blue-900 hover:shadow-blue-400 text-white py-5 font-sans  bg-[#37547f21]
+
+ ">
+        <figure className="px-5">
           <img 
             src={image}
             alt="projectImg"
-            className="rounded-xl h-[200px] w-full object-cover"
+            className="rounded-xl h-[260px] w-full object-cover"
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title text-bold text-xl py-2">{title}</h2>
+          <h2 className="card-title font-bold text-3xl  md:text-2xl py-3 text-cyan-400">{title}</h2>
+          {/* Tech name and date */}
+        <div className="mb-1 flex items-center ml-5 gap-7 justify-center">
+          <div className="flex items-center justify-center border-2  rounded-lg px-1 bg-[#3cc9c422] text-cyan-600 font-bold hover:bg-blue-400 hover:text-black hover:animate-bounce ">
+            <div><AiOutlineTags className="text-2xl mr-2" /></div>
+            <div className="">{name}</div>
+          </div>
+          <div className="flex items-center ">
+            <div><CiCalendar className="text-2xl mr-2" /></div>
+            <div>{duration}</div>
+            </div>
+        </div>
+
           <p className="py-2 px-2">{description}</p>
           <div>
-            <Tilt>
-             <ul className="md:flex flex-wrap justify-around gap-1 sm:w-full">
+           
+             <ul className="flex flex-wrap items-center justify-center gap-6  ">
                 {
-                    tech.map((item, index)=>(<li className="border-2 bg-gray-700  mb-1  rounded-xl px-2" key={index}>{item}</li>))
+                    tech.map((item, index)=>(<li className="border-2 border-cyan-400 hover:bg-blue-300  bg-blue-500 text-black font-semibold  animate-bounce mb-1 hover:shadow-3xl hover:shadow-emerald-400  rounded-xl px-2" key={index}>{item}</li>))
                 }
             </ul>
-            </Tilt>
+          
           </div>
           
-          <div className="card-actions mt-5 flex justify-around">
-            <a href={project.github} className=" border-2 border-gray-400 rounded-xl py-2 px-5 text-xl bg-gray-500 ">
-                <FaGithub  />
-            </a>
-            <a href={project.live}  className="border-2 border-gray-400 rounded-xl pt-2 px-5 bg-gray-500  ">
-                <FaExternalLinkAlt />
+          <div className="card-actions mt-5 flex  justify-center gap-5">
+            <a href={github} className=" border-2 border-cyan-600 hover:bg-cyan-400 rounded-xl px-4 text-xl bg-[#12101040] flex items-center gap-3 py-1"><FaGithub  /><p>code</p></a>
+            <a href={live}  className="border-2 border-cyan-400 rounded-xl  px-5 bg-blue-500 flex items-center gap-4 hover:bg-cyan-800 hover:animate-bounce py-1">
+                <FaExternalLinkAlt /> <p className="font-semibold">Demo</p>
             </a>
           </div>
         </div>

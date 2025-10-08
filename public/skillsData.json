@@ -3,43 +3,43 @@
   {
     "category": "Frontend",
     "skills": [
-      { "name": "HTML", "img":"../public/skillImg/skillImg/html5.svg "},
-      { "name": "CSS", "img": "../public/skillImg/skillImg/" },
-      { "name": "JavaScript", "img": "../public/skillImg/skillImg/JavaScript.svg" },
-      { "name": "React JS", "img": "../public/skillImg/skillImg/React.svg" },
-      { "name": "Redux", "img": "../public/skillImg/skillImg/" },
-      { "name": "Next JS", "img": "../public/skillImg/skillImg/" },
-      { "name": "Tailwind CSS", "img": "../public/skillImg/skillImg/" }
+      { "name": "HTML", "img":"/skillImg/skillImg/html5.svg "},
+      { "name": "CSS", "img": "/skillImg/skillImg/css.png" },
+      { "name": "JavaScript", "img": "/skillImg/skillImg/JavaScript.svg" },
+      { "name": "React JS", "img": "/skillImg/skillImg/React.svg" },
+      { "name": "Redux", "img": "/skillImg/skillImg/redux.png" },
+      { "name": "Next JS", "img": "/skillImg/skillImg/Next.js.svg" },
+      { "name": "Tailwind CSS", "img": "/skillImg/skillImg/tailwind_css.png" }
     ]
   },
   {
     "category": "Backend",
     "skills": [
-      { "name": "Node JS", "img": "../public/skillImg/skillImg/" },
-      { "name": "Express JS", "img": "../public/skillImg/skillImg/Express.svg " },
-      { "name": "MySQL", "img": "../public/skillImg/skillImg/MySQL.svg" },
-      { "name": "MongoDB", "img": "../public/skillImg/skillImg/mongodb-spring-green.svg" },
-      { "name": "Firebase", "img": "../public/skillImg/skillImg/" }
+      { "name": "Node JS", "img": "/skillImg/skillImg/node_js.png" },
+      { "name": "Express JS", "img": "/skillImg/skillImg/Express.svg " },
+      { "name": "MySQL", "img": "/skillImg/skillImg/MySQL.svg" },
+      { "name": "MongoDB", "img": "/skillImg/skillImg/mongodb-spring-green.svg" },
+      { "name": "Firebase", "img": "/skillImg/skillImg/firebase2.png" }
     ]
   },
   {
     "category": "Languages",
     "skills": [
-      { "name": "C", "img": "/skillImg/skillImg/" },
-      { "name": "C++", "img": "/skillImg/skillImg" },
-      { "name": "Python", "img": "/skillImg/skillImg" },
-      { "name": "JavaScript", "img": "/skillImg/skillImg" },
-      { "name": "TypeScript", "img": "/skillImg/skillImg" }
+      { "name": "C", "img": "/skillImg/skillImg/c.svg" },
+      { "name": "C++", "img": "/skillImg/skillImg/c++.png" },
+      { "name": "Python", "img": "/skillImg/skillImg/python.png" },
+      { "name": "JavaScript", "img": "/skillImg/skillImg/JavaScript.svg" },
+      { "name": "TypeScript", "img": "/skillImg/skillImg/typescript.png" }
     ]
   },
   {
     "category": "Tools",
     "skills": [
-      { "name": "Git", "img": "/skillImg/skillImg" },
-      { "name": "GitHub", "img": "/skillImg/skillImg" },
-      { "name": "VS Code", "img": "/skillImg/skillImg" },
-      { "name": "Vercel", "img": "/skillImg/skillImg" },
-      { "name": "Figma", "img": "/skillImg/skillImg" }
+      { "name": "Git", "img": "/skillImg/skillImg/Git.svg " },
+      { "name": "GitHub", "img": "/skillImg/skillImg/github-octocat.svg" },
+      { "name": "VS Code", "img": "/skillImg/skillImg/VisualStudio.svg" },
+      { "name": "Vercel", "img": "/skillImg/skillImg/vercel (1).svg" },
+      { "name": "Figma", "img": "/skillImg/skillImg/figma.png" }
     ]
   }
 ]

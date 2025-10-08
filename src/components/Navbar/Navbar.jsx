@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { FaGithub, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
-
+import {  FaBars, FaTimes } from "react-icons/fa";
+import logo from '../../../public/logo/logo1.png'
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -19,12 +19,20 @@ export default function Navbar() {
       {/* Full width navbar */}
       <div className="w-full flex items-center justify-between h-16">
         {/* Logo */}
-        <a
+        <div data-aos="flip-left" 
+     data-aos-duration="3000" data-aos-once="false">
+     <a href="#about" >
+      <img className="w-20 h-20 rounded-full border-2 border-cyan-900 shadow-2xl  shadow-cyan-600 hover:w-25 hover:h-25 " src={logo} alt="" />
+     </a>
+     </div>
+         <a
           href="#home"
           className="text-white font-semibold text-lg hover:text-indigo-400 transition"
         >
           Mokarama<span className="text-indigo-400"> / Shanta</span>
         </a>
+      
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-300 font-medium">
@@ -37,25 +45,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Icons */}
-        <div className="hidden md:flex items-center space-x-4 text-gray-300 mr-40 ">
-          <a
-            href="https://github.com/Mokarama"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-indigo-400 text-xl"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mokarama-mim"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-indigo-400 text-xl"
-          >
-            <FaLinkedin />
-          </a>
-        </div>
 
         {/* Mobile Hamburger */}
         <button
@@ -81,24 +70,7 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
-            <div className="flex space-x-6 pt-4">
-              <a
-                href="https://github.com/yourname"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-indigo-400 text-xl"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourname"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-indigo-400 text-xl"
-              >
-                <FaLinkedin />
-              </a>
-            </div>
+           
           </ul>
         </div>
       )}

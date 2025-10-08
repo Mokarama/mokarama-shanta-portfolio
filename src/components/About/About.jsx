@@ -1,5 +1,4 @@
 import { Typewriter } from "react-simple-typewriter";
-// import portfolioImg from "../../assets/portfolio.jpg";
 import Tilt from "react-parallax-tilt";
 import "./about.css";
 import mokaramaCv from "../../assets/Mokarama_CV.pdf";
@@ -13,10 +12,14 @@ import { CiMail } from "react-icons/ci";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { HiOutlineDownload } from "react-icons/hi";
 
+
+
+
 const About = () => {
   return (
     <>
-      <div
+    <div data-aos="fade-up"
+     data-aos-duration="3000" data-aos-once="false"
         id="about"
         className="min-h-screen w-3/4 mx-auto font-sans  content-center items-center py-30 "
       >

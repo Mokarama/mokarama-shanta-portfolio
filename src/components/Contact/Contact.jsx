@@ -28,7 +28,8 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="min-h-screen pt-20 ">
+    <div data-aos="zoom-in-up" 
+     data-aos-duration="3000" data-aos-once="false" id="contact" className="min-h-screen pt-20 ">
       <Motion/>
     <h3 className="text-3xl pt-4 text-cyan-400 font-semibold my-2  shadow-4xl text-center "> Get In Touch</h3>
     <div className=" w-[300px] bg-blue-600 shadow-4xl mb-3 shadow-gray-400  flex mx-auto h-[5px] rounded-3xl border-b-1 border-b-amber-50"></div>

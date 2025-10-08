@@ -14,12 +14,9 @@ import Projects from "./components/Projects/Projects";
 import Certifications from "./components/Certifications/Certifications";
 import Footer from "./components/Footer/Footer";
 import AOS from 'aos';
-
-//Animation
-AOS.init({
-  duration: 1000, 
-      once: true, 
-});
+import 'aos/dist/aos.css';
+import TechnicalExpertise from "./components/TechnicalExpertise/TechnicalExpertise";
+import Charts from "./components/Charts/Charts";
 
 
 // Skill component ***
@@ -29,12 +26,19 @@ const dataFetch = fetch("skillsData.json")
 //Project component **
 const projectDataFetch = fetch("projects.json")
 .then((res) => res.json());
+//Animation
+AOS.init({
+  duration: 1500, 
+  once: true,      
+  offset: 100,    
+});
+
 
 export default function App() {
 
 //bg-[#0f0927]
   return (
-    <div className="relative bg-[#201840]  min-h-screen">
+    <div className="relative bg-[#0f0927]  min-h-screen">
       
       <Particle className="absolute top-0 left-0 w-full h-full -z-10"></Particle>
      
@@ -46,7 +50,8 @@ export default function App() {
         <Skills dataFetch={dataFetch} />
       </Suspense>
 
-        
+      <TechnicalExpertise/>
+         
      <Experience experience={experience}/>
       
 
@@ -59,7 +64,7 @@ export default function App() {
        <Certifications/>
       <Contact />
       <Footer/>
-     
+     {/* <Charts></Charts> */}
     </div>
   );
 }
